@@ -1,0 +1,401 @@
+2026-03-21 02:21:49,660 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 02:21:55,395 - WARNING - Non-financial query detected.
+2026-03-21 02:21:55,396 - INFO - Processing query: finance
+2026-03-21 02:22:36,753 - WARNING - Non-financial query detected.
+2026-03-21 02:22:36,754 - INFO - Processing query: report annulally
+2026-03-21 02:25:56,883 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 02:26:06,209 - INFO - Processing query: finance
+2026-03-21 02:27:23,105 - WARNING - Non-financial query detected.
+2026-03-21 02:27:23,106 - INFO - Processing query: why open ai unavailable
+2026-03-21 02:29:11,878 - INFO - Processing query: cd "c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight"
+2026-03-21 02:29:14,827 - ERROR - Empty query received.
+2026-03-21 02:29:14,828 - ERROR - Validation error: Query cannot be empty.
+2026-03-21 02:29:14,829 - WARNING - Non-financial query detected.
+2026-03-21 02:29:14,829 - INFO - Processing query: # install deps
+2026-03-21 02:29:24,356 - WARNING - Non-financial query detected.
+2026-03-21 02:29:24,357 - INFO - Processing query: C:/Users/yadav/AppData/Local/Microsoft/WindowsApps/python3.13.exe -m pip install -r requirements.txt
+2026-03-21 02:31:28,005 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 02:31:32,587 - WARNING - Non-financial query detected.
+2026-03-21 02:31:32,587 - INFO - Processing query: fight
+2026-03-21 02:32:20,833 - WARNING - Non-financial query detected.
+2026-03-21 02:32:20,833 - INFO - Processing query: C:/Users/yadav/AppData/Local/Microsoft/WindowsApps/python3.13.exe -m uvicorn FinSight.app.api:app --reload
+2026-03-21 02:33:19,624 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 02:34:27,878 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 02:34:32,749 - INFO - Processing query: finance
+2026-03-21 14:25:51,419 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 14:25:56,829 - INFO - Processing query: finance
+2026-03-21 14:27:53,986 - WARNING - Non-financial query detected.
+2026-03-21 14:27:53,986 - INFO - Processing query: # Option 1: Edit .env directly
+2026-03-21 14:27:57,912 - WARNING - Non-financial query detected.
+2026-03-21 14:27:57,913 - INFO - Processing query: # Change: LLM_PROVIDER=openai
+2026-03-21 14:28:00,532 - WARNING - Non-financial query detected.
+2026-03-21 14:28:00,533 - INFO - Processing query: # To: LLM_PROVIDER=ollama
+2026-03-21 14:28:03,415 - ERROR - Empty query received.
+2026-03-21 14:28:03,415 - ERROR - Validation error: Query cannot be empty.
+2026-03-21 14:28:03,417 - WARNING - Non-financial query detected.
+2026-03-21 14:28:03,417 - INFO - Processing query: # Option 2: Set environment variables (PowerShell)
+2026-03-21 14:28:06,128 - WARNING - Non-financial query detected.
+2026-03-21 14:28:06,128 - INFO - Processing query: $env:LLM_PROVIDER="ollama"
+2026-03-21 14:28:08,723 - ERROR - Empty query received.
+2026-03-21 14:28:08,723 - ERROR - Validation error: Query cannot be empty.
+2026-03-21 14:28:08,724 - WARNING - Non-financial query detected.
+2026-03-21 14:28:08,724 - INFO - Processing query: # Then restart Streamlit
+2026-03-21 15:11:12,424 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 15:11:19,666 - INFO - Processing query: finance
+2026-03-21 15:41:13,922 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 15:41:45,868 - INFO - Processing query: Finance
+2026-03-21 17:59:56,732 - INFO - Found 3 PDF files to process
+2026-03-21 17:59:56,732 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:01:33,219 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-03-21 18:01:42,471 - INFO - Found 3 PDF files to process
+2026-03-21 18:01:42,472 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:05:29,551 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-03-21 18:06:51,002 - INFO - Found 3 PDF files to process
+2026-03-21 18:06:51,002 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:08:35,456 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-03-21 18:10:38,579 - INFO - Found 3 PDF files to process
+2026-03-21 18:10:38,580 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:10:50,075 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-03-21 18:13:09,218 - WARNING - Processing interrupted by user
+2026-03-21 18:13:09,227 - INFO - 
+Total documents extracted: 3226
+2026-03-21 18:13:09,227 - INFO - Generating embeddings...
+2026-03-21 18:14:24,593 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-03-21 18:17:24,795 - INFO - Found 3 PDF files to process
+2026-03-21 18:17:24,807 - INFO - Using HuggingFace sentence-transformers for fast embedding generation
+2026-03-21 18:17:24,807 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:18:12,374 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-03-21 18:22:35,267 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:22:35,395 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-03-21 18:22:35,399 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-03-21 18:25:39,514 - WARNING - Processing interrupted by user
+2026-03-21 18:25:39,525 - INFO - 
+Total documents extracted: 1642
+2026-03-21 18:25:39,527 - INFO - Loading embedding model...
+2026-03-21 18:25:39,528 - INFO - Loading 'all-MiniLM-L6-v2' model...
+2026-03-21 18:25:47,509 - INFO - [OK] Model loaded. Generating embeddings for all chunks...
+2026-03-21 18:29:06,943 - INFO - [OK] Generated 1642 embeddings
+2026-03-21 18:29:06,987 - INFO - Indexing documents in vector database...
+2026-03-21 18:29:08,362 - INFO - [OK] Successfully indexed 1642 documents
+2026-03-21 18:29:08,363 - INFO - 
+============================================================
+2026-03-21 18:29:08,363 - INFO - Data ingestion completed successfully!
+2026-03-21 18:29:08,364 - INFO - ============================================================
+2026-03-21 18:29:08,365 - INFO - Total documents indexed: 1642
+2026-03-21 18:29:08,365 - INFO - Your RAG pipeline is ready to use!
+2026-03-21 18:29:08,366 - INFO - 
+You can now:
+2026-03-21 18:29:08,367 - INFO -   - Run: streamlit run app/streamlit_app.py
+2026-03-21 18:29:08,368 - INFO -   - Or: python -m uvicorn app.api:app --reload
+2026-03-21 18:29:57,985 - INFO - 
+Total documents extracted: 5777
+2026-03-21 18:29:57,986 - INFO - Generating embeddings...
+2026-03-21 18:32:33,281 - INFO - Found 3 PDF files to process
+2026-03-21 18:32:33,282 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:35:26,401 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:35:26,666 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-03-21 18:35:26,672 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-03-21 18:37:15,970 - INFO -   [OK] Extracted 1584 chunks from RIL-IAR-2024-25.pdf
+2026-03-21 18:37:16,080 - INFO -   [OK] Saved processed data to data/processed/RIL-IAR-2024-25.json
+2026-03-21 18:37:16,082 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-03-21 18:40:01,263 - INFO -   [OK] Extracted 2551 chunks from tata-motor-IAR-2024-25.pdf
+2026-03-21 18:40:01,392 - INFO -   [OK] Saved processed data to data/processed/tata-motor-IAR-2024-25.json
+2026-03-21 18:40:01,393 - INFO - 
+Total documents extracted: 5777
+2026-03-21 18:40:01,393 - INFO - Proceeding with embedding and indexing...
+2026-03-21 18:40:01,394 - INFO - Generating embeddings...
+2026-03-21 18:40:01,394 - INFO - Indexing documents in vector database...
+2026-03-21 18:55:25,072 - INFO - Found 3 PDF files to process
+2026-03-21 18:55:25,073 - INFO - Using HuggingFace sentence-transformers for fast embedding generation
+2026-03-21 18:55:25,074 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:56:13,965 - INFO - Found 3 PDF files to process
+2026-03-21 18:56:13,966 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:58:03,347 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-03-21 18:58:03,396 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-03-21 18:58:03,397 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-03-21 18:58:34,708 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 18:58:40,307 - INFO - Processing query: Finance
+2026-03-21 18:58:40,900 - ERROR - Error processing query: 
+2026-03-21 18:58:46,683 - WARNING - Non-financial query detected.
+2026-03-21 18:58:46,684 - INFO - Processing query: SSssss
+2026-03-21 18:58:46,716 - ERROR - Error processing query: 
+2026-03-21 18:59:08,892 - INFO - Processing query: what is finance
+2026-03-21 18:59:08,942 - ERROR - Error processing query: 
+2026-03-21 19:01:20,697 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 19:01:30,115 - INFO - Processing query: Finance
+2026-03-21 19:01:30,213 - ERROR - Error in run_query: AssertionError
+Traceback (most recent call last):
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\core\rag\pipeline.py", line 114, in run_query
+    docs = self.vector_db.search(query_vector)
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\services\vector_db_service.py", line 82, in search
+    distances, indices = self.index.search(query, top_k)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\yadav\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\faiss\class_wrappers.py", line 383, in replacement_search
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2026-03-21 19:01:58,257 - INFO - Processing query: fINANCE
+2026-03-21 19:01:58,374 - ERROR - Error in run_query: AssertionError
+Traceback (most recent call last):
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\core\rag\pipeline.py", line 114, in run_query
+    docs = self.vector_db.search(query_vector)
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\services\vector_db_service.py", line 82, in search
+    distances, indices = self.index.search(query, top_k)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\yadav\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\faiss\class_wrappers.py", line 383, in replacement_search
+    assert d == self.d
+           ^^^^^^^^^^^
+AssertionError
+2026-03-21 19:02:57,950 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 19:03:07,820 - INFO - Processing query: Finance
+2026-03-21 19:03:07,937 - ERROR - Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-03-21 19:03:07,937 - ERROR - Error during vector search: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+Traceback (most recent call last):
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\services\vector_db_service.py", line 97, in search
+    raise ValueError(error_msg)
+ValueError: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-03-21 19:03:40,865 - INFO - Processing query: Finance
+2026-03-21 19:03:41,793 - ERROR - Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-03-21 19:03:41,794 - ERROR - Error during vector search: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+Traceback (most recent call last):
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\services\vector_db_service.py", line 97, in search
+    raise ValueError(error_msg)
+ValueError: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-03-21 19:04:10,044 - WARNING - Non-financial query detected.
+2026-03-21 19:04:10,045 - INFO - Processing query: Salese thisyear of maruti
+2026-03-21 19:04:10,113 - ERROR - Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-03-21 19:04:10,113 - ERROR - Error during vector search: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+Traceback (most recent call last):
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\services\vector_db_service.py", line 97, in search
+    raise ValueError(error_msg)
+ValueError: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-03-21 19:06:40,823 - INFO - Starting ingestion in 'processed' mode...
+2026-03-21 19:06:41,057 - INFO - Found 3 processed JSON files
+2026-03-21 19:06:41,058 - INFO - Loading: MSIL_IR_2024_25_HR.json
+2026-03-21 19:06:41,142 - INFO -   [OK] Loaded 1642 documents from MSIL_IR_2024_25_HR.json
+2026-03-21 19:06:41,143 - INFO - Loading: RIL-IAR-2024-25.json
+2026-03-21 19:06:41,190 - INFO -   [OK] Loaded 1584 documents from RIL-IAR-2024-25.json
+2026-03-21 19:06:41,191 - INFO - Loading: tata-motor-IAR-2024-25.json
+2026-03-21 19:06:41,272 - INFO -   [OK] Loaded 2551 documents from tata-motor-IAR-2024-25.json
+2026-03-21 19:06:41,273 - INFO - 
+Total documents to index: 5777
+2026-03-21 19:06:41,274 - INFO - Loading embedding model...
+2026-03-21 19:06:47,321 - INFO - [OK] Model loaded. Generating embeddings...
+2026-03-21 19:12:53,511 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 19:12:57,678 - INFO - Processing query: finance
+2026-03-21 19:15:34,058 - INFO - RAG Pipeline initialized successfully.
+2026-03-21 19:15:41,387 - WARNING - Non-financial query detected.
+2026-03-21 19:15:41,388 - INFO - Processing query: Sakes
+2026-03-21 19:16:00,799 - WARNING - Non-financial query detected.
+2026-03-21 19:16:00,800 - INFO - Processing query: Sales
+2026-03-21 19:17:01,689 - WARNING - Non-financial query detected.
+2026-03-21 19:17:01,689 - INFO - Processing query: Sales of tata 2024-25
+2026-03-21 19:20:11,190 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-03-21 19:28:27,341 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-03-25 00:54:55,557 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-03-25 01:00:01,802 - INFO - Starting ingestion in 'pdf' mode...
+2026-03-25 01:00:01,919 - INFO - Found 3 PDF files to process
+2026-03-25 01:00:01,919 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-25 01:00:42,918 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-03-25 01:13:40,562 - INFO - Starting ingestion in 'pdf' mode...
+2026-03-25 01:13:40,601 - INFO - Found 3 PDF files to process
+2026-03-25 01:13:40,601 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-03-25 01:15:15,026 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-03-25 01:15:15,104 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-03-25 01:15:15,108 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-03-25 01:17:02,233 - INFO -   [OK] Extracted 1584 chunks from RIL-IAR-2024-25.pdf
+2026-03-25 01:17:02,292 - INFO -   [OK] Saved processed data to data/processed/RIL-IAR-2024-25.json
+2026-03-25 01:17:02,294 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-03-25 01:20:38,065 - INFO -   [OK] Extracted 2551 chunks from tata-motor-IAR-2024-25.pdf
+2026-03-25 01:20:38,194 - INFO -   [OK] Saved processed data to data/processed/tata-motor-IAR-2024-25.json
+2026-03-25 01:20:38,196 - INFO - 
+Total documents extracted: 5777
+2026-03-25 01:20:38,197 - INFO - Generating embeddings...
+2026-03-25 02:04:15,726 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-03-25 02:04:17,732 - INFO - Starting backend API server with uvicorn.
+2026-03-25 02:04:22,330 - ERROR - Backend API process exited before becoming ready.
+2026-03-25 02:06:00,168 - INFO - Launching Streamlit app from C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-03-25 02:06:02,177 - INFO - Starting backend API server with uvicorn.
+2026-03-25 02:06:04,800 - INFO - Backend API server is ready.
+2026-03-25 02:07:44,491 - INFO - Starting ingestion in 'processed' mode...
+2026-03-25 02:07:44,493 - INFO - Found 3 processed JSON files
+2026-03-25 02:07:44,494 - INFO - Loading: MSIL_IR_2024_25_HR.json
+2026-03-25 02:07:44,549 - INFO -   [OK] Loaded 1642 documents from MSIL_IR_2024_25_HR.json
+2026-03-25 02:07:44,550 - INFO - Loading: RIL-IAR-2024-25.json
+2026-03-25 02:07:44,582 - INFO -   [OK] Loaded 1584 documents from RIL-IAR-2024-25.json
+2026-03-25 02:07:44,583 - INFO - Loading: tata-motor-IAR-2024-25.json
+2026-03-25 02:07:44,635 - INFO -   [OK] Loaded 2551 documents from tata-motor-IAR-2024-25.json
+2026-03-25 02:07:44,636 - INFO - 
+Total documents to index: 5777
+2026-03-25 02:07:44,636 - INFO - Loading embedding model...
+2026-03-25 02:07:49,732 - INFO - [OK] Model loaded. Generating embeddings...
+2026-03-25 02:14:38,908 - INFO - [OK] Generated 5777 embeddings
+2026-03-25 02:14:38,920 - INFO - Indexing documents in vector database...
+2026-03-25 02:14:39,063 - INFO - [OK] Successfully indexed 5777 documents
+2026-03-25 02:14:39,063 - INFO - 
+============================================================
+2026-03-25 02:14:39,063 - INFO - Data ingestion completed successfully!
+2026-03-25 02:14:39,064 - INFO - ============================================================
+2026-03-25 02:14:39,064 - INFO - Total documents indexed: 5777
+2026-03-25 02:14:39,064 - INFO - Your RAG pipeline is ready to use!
+2026-03-25 02:14:39,064 - INFO - 
+You can now:
+2026-03-25 02:14:39,065 - INFO -   - Run: streamlit run app/streamlit_app.py
+2026-03-25 02:14:39,065 - INFO -   - Or: python -m uvicorn app.api:app --reload
+2026-03-25 02:28:47,310 - INFO - Launching Streamlit app from C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-03-25 02:28:49,313 - INFO - Starting backend API server with uvicorn.
+2026-03-25 02:29:01,954 - INFO - Backend API server is ready.
+2026-03-25 02:45:54,768 - INFO - Stopping backend API server.
+2026-04-04 11:09:09,691 - INFO - Starting ingestion in 'pdf' mode...
+2026-04-04 11:09:09,790 - INFO - Found 3 PDF files to process
+2026-04-04 11:09:09,791 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-04-04 11:10:46,193 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-04-04 11:10:46,261 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-04-04 11:10:46,263 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-04-04 11:14:18,634 - INFO -   [OK] Extracted 1584 chunks from RIL-IAR-2024-25.pdf
+2026-04-04 11:14:18,713 - INFO -   [OK] Saved processed data to data/processed/RIL-IAR-2024-25.json
+2026-04-04 11:14:18,715 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-04-04 11:17:48,262 - INFO -   [OK] Extracted 2551 chunks from tata-motor-IAR-2024-25.pdf
+2026-04-04 11:17:48,389 - INFO -   [OK] Saved processed data to data/processed/tata-motor-IAR-2024-25.json
+2026-04-04 11:17:48,390 - INFO - 
+Total documents extracted: 5777
+2026-04-04 11:17:48,390 - INFO - Generating embeddings...
+2026-04-04 11:17:48,565 - INFO - [OK] Generated 0 embeddings
+2026-04-04 11:17:48,566 - INFO - Indexing documents in vector database...
+2026-04-04 11:17:48,938 - INFO - [OK] Successfully indexed 5777 documents
+2026-04-04 11:17:48,939 - INFO - 
+============================================================
+2026-04-04 11:17:48,943 - INFO - Data ingestion completed successfully!
+2026-04-04 11:17:48,944 - INFO - ============================================================
+2026-04-04 11:17:48,944 - INFO - Total documents indexed: 5777
+2026-04-04 11:17:48,945 - INFO - Your RAG pipeline is ready to use!
+2026-04-04 11:17:48,946 - INFO - 
+You can now:
+2026-04-04 11:17:48,946 - INFO -   - Run: streamlit run app/streamlit_app.py
+2026-04-04 11:17:48,947 - INFO -   - Or: python -m uvicorn app.api:app --reload
+2026-04-04 11:43:37,005 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-04-04 11:43:37,013 - INFO - Backend already running.
+2026-04-04 17:16:24,615 - INFO - Starting ingestion in 'pdf' mode...
+2026-04-04 17:16:24,727 - INFO - Found 3 PDF files to process
+2026-04-04 17:16:24,727 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-04-04 17:17:57,247 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-04-04 17:17:57,305 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-04-04 17:17:57,308 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-04-04 17:19:21,952 - INFO -   [OK] Extracted 1584 chunks from RIL-IAR-2024-25.pdf
+2026-04-04 17:19:21,997 - INFO -   [OK] Saved processed data to data/processed/RIL-IAR-2024-25.json
+2026-04-04 17:19:21,999 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-04-04 17:21:22,835 - INFO -   [OK] Extracted 2551 chunks from tata-motor-IAR-2024-25.pdf
+2026-04-04 17:21:22,929 - INFO -   [OK] Saved processed data to data/processed/tata-motor-IAR-2024-25.json
+2026-04-04 17:21:22,930 - INFO - 
+Total documents extracted: 5777
+2026-04-04 17:21:22,930 - INFO - Generating embeddings...
+2026-04-04 17:21:23,084 - INFO - [OK] Generated 0 embeddings
+2026-04-04 17:21:23,084 - INFO - Indexing documents in vector database...
+2026-04-04 17:21:23,356 - INFO - [OK] Successfully indexed 5777 documents
+2026-04-04 17:21:23,359 - INFO - 
+============================================================
+2026-04-04 17:21:23,360 - INFO - Data ingestion completed successfully!
+2026-04-04 17:21:23,361 - INFO - ============================================================
+2026-04-04 17:21:23,362 - INFO - Total documents indexed: 5777
+2026-04-04 17:21:23,363 - INFO - Your RAG pipeline is ready to use!
+2026-04-04 17:21:23,364 - INFO - 
+You can now:
+2026-04-04 17:21:23,364 - INFO -   - Run: streamlit run app/streamlit_app.py
+2026-04-04 17:21:23,364 - INFO -   - Or: python -m uvicorn app.api:app --reload
+2026-04-04 17:32:59,155 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-04-04 17:33:01,166 - INFO - Starting backend API server with uvicorn.
+2026-04-04 17:33:11,291 - INFO - Backend API server is ready.
+2026-04-04 22:07:34,939 - INFO - Stopping backend API server.
+2026-04-05 18:48:29,827 - INFO - Starting ingestion in 'pdf' mode...
+2026-04-05 18:48:29,969 - INFO - Found 3 PDF files to process
+2026-04-05 18:48:29,970 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-04-05 18:51:16,053 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-04-05 18:51:16,154 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-04-05 18:51:16,158 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-04-05 18:53:48,122 - INFO -   [OK] Extracted 1584 chunks from RIL-IAR-2024-25.pdf
+2026-04-05 18:53:48,195 - INFO -   [OK] Saved processed data to data/processed/RIL-IAR-2024-25.json
+2026-04-05 18:53:48,196 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-04-05 18:56:04,375 - INFO -   [OK] Extracted 2551 chunks from tata-motor-IAR-2024-25.pdf
+2026-04-05 18:56:04,497 - INFO -   [OK] Saved processed data to data/processed/tata-motor-IAR-2024-25.json
+2026-04-05 18:56:04,498 - INFO - 
+Total documents extracted: 5777
+2026-04-05 18:56:04,498 - INFO - Generating embeddings...
+2026-04-05 18:56:04,685 - INFO - [OK] Generated 0 embeddings
+2026-04-05 18:56:04,686 - INFO - Indexing documents in vector database...
+2026-04-05 18:56:04,986 - INFO - [OK] Successfully indexed 5777 documents
+2026-04-05 18:56:04,986 - INFO - 
+============================================================
+2026-04-05 18:56:04,987 - INFO - Data ingestion completed successfully!
+2026-04-05 18:56:04,988 - INFO - ============================================================
+2026-04-05 18:56:04,988 - INFO - Total documents indexed: 5777
+2026-04-05 18:56:04,988 - INFO - Your RAG pipeline is ready to use!
+2026-04-05 18:56:04,989 - INFO - 
+You can now:
+2026-04-05 18:56:04,989 - INFO -   - Run: streamlit run app/streamlit_app.py
+2026-04-05 18:56:04,989 - INFO -   - Or: python -m uvicorn app.api:app --reload
+2026-04-05 20:17:50,553 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-04-05 20:17:52,564 - INFO - Starting backend API server with uvicorn.
+2026-04-05 20:18:03,711 - INFO - Backend API server is ready.
+2026-04-05 21:15:44,076 - INFO - Stopping backend API server.
+2026-04-05 21:16:29,042 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-04-05 21:16:31,057 - INFO - Starting backend API server with uvicorn.
+2026-04-05 21:16:43,667 - INFO - Backend API server is ready.
+2026-04-05 21:18:31,295 - INFO - Stopping backend API server.
+2026-04-09 19:02:46,557 - INFO - Starting ingestion in 'pdf' mode...
+2026-04-09 19:02:46,664 - INFO - Found 3 PDF files to process
+2026-04-09 19:02:46,665 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-04-09 19:04:10,285 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-04-09 19:04:10,344 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-04-09 19:04:10,345 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-04-09 19:05:36,266 - INFO -   [OK] Extracted 1584 chunks from RIL-IAR-2024-25.pdf
+2026-04-09 19:05:36,313 - INFO -   [OK] Saved processed data to data/processed/RIL-IAR-2024-25.json
+2026-04-09 19:05:36,313 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-04-09 19:07:44,262 - INFO -   [OK] Extracted 2551 chunks from tata-motor-IAR-2024-25.pdf
+2026-04-09 19:07:44,342 - INFO -   [OK] Saved processed data to data/processed/tata-motor-IAR-2024-25.json
+2026-04-09 19:07:44,343 - INFO - 
+Total documents extracted: 5777
+2026-04-09 19:07:44,343 - INFO - Generating embeddings...
+2026-04-09 19:07:44,471 - INFO - [OK] Generated 0 embeddings
+2026-04-09 19:07:44,472 - INFO - Indexing documents in vector database...
+2026-04-09 19:07:44,691 - INFO - [OK] Successfully indexed 5777 documents
+2026-04-09 19:07:44,692 - INFO - 
+============================================================
+2026-04-09 19:07:44,692 - INFO - Data ingestion completed successfully!
+2026-04-09 19:07:44,693 - INFO - ============================================================
+2026-04-09 19:07:44,693 - INFO - Total documents indexed: 5777
+2026-04-09 19:07:44,693 - INFO - Your RAG pipeline is ready to use!
+2026-04-09 19:07:44,693 - INFO - 
+You can now:
+2026-04-09 19:07:44,694 - INFO -   - Run: streamlit run app/streamlit_app.py
+2026-04-09 19:07:44,694 - INFO -   - Or: python -m uvicorn app.api:app --reload
+2026-04-09 19:34:54,409 - INFO - Starting ingestion in 'pdf' mode...
+2026-04-09 19:34:54,494 - INFO - Found 3 PDF files to process
+2026-04-09 19:34:54,495 - INFO - Processing: MSIL_IR_2024_25_HR.pdf
+2026-04-09 19:36:15,051 - INFO -   [OK] Extracted 1642 chunks from MSIL_IR_2024_25_HR.pdf
+2026-04-09 19:36:15,091 - INFO -   [OK] Saved processed data to data/processed/MSIL_IR_2024_25_HR.json
+2026-04-09 19:36:15,092 - INFO - Processing: RIL-IAR-2024-25.pdf
+2026-04-09 19:37:38,113 - INFO -   [OK] Extracted 1584 chunks from RIL-IAR-2024-25.pdf
+2026-04-09 19:37:38,161 - INFO -   [OK] Saved processed data to data/processed/RIL-IAR-2024-25.json
+2026-04-09 19:37:38,162 - INFO - Processing: tata-motor-IAR-2024-25.pdf
+2026-04-09 19:39:37,434 - INFO -   [OK] Extracted 2551 chunks from tata-motor-IAR-2024-25.pdf
+2026-04-09 19:39:37,555 - INFO -   [OK] Saved processed data to data/processed/tata-motor-IAR-2024-25.json
+2026-04-09 19:39:37,556 - INFO - 
+Total documents extracted: 5777
+2026-04-09 19:39:37,557 - INFO - Generating embeddings...
+2026-04-09 19:39:37,740 - INFO - [OK] Generated 0 embeddings
+2026-04-09 19:39:37,740 - INFO - Indexing documents in vector database...
+2026-04-09 19:39:38,340 - INFO - [OK] Successfully indexed 5777 documents
+2026-04-09 19:39:38,341 - INFO - 
+============================================================
+2026-04-09 19:39:38,342 - INFO - Data ingestion completed successfully!
+2026-04-09 19:39:38,343 - INFO - ============================================================
+2026-04-09 19:39:38,343 - INFO - Total documents indexed: 5777
+2026-04-09 19:39:38,344 - INFO - Your RAG pipeline is ready to use!
+2026-04-09 19:39:38,344 - INFO - 
+You can now:
+2026-04-09 19:39:38,345 - INFO -   - Run: streamlit run app/streamlit_app.py
+2026-04-09 19:39:38,345 - INFO -   - Or: python -m uvicorn app.api:app --reload
+2026-04-09 19:54:48,475 - INFO - Launching Streamlit app from c:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\app\streamlit_app.py
+2026-04-09 19:54:50,491 - INFO - Starting backend API server with uvicorn.
+2026-04-09 19:55:01,595 - INFO - Backend API server is ready.
+2026-04-09 21:58:18,426 - INFO - Stopping backend API server.

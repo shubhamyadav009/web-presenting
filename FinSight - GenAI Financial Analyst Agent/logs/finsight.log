@@ -1,0 +1,36 @@
+2026-03-21 19:09:16,836 - INFO - Starting ingestion in 'processed' mode...
+2026-03-21 19:09:16,981 - INFO - Found 3 processed JSON files
+2026-03-21 19:09:16,982 - INFO - Loading: MSIL_IR_2024_25_HR.json
+2026-03-21 19:09:17,015 - INFO -   [OK] Loaded 1642 documents from MSIL_IR_2024_25_HR.json
+2026-03-21 19:09:17,016 - INFO - Loading: RIL-IAR-2024-25.json
+2026-03-21 19:09:17,051 - INFO -   [OK] Loaded 1584 documents from RIL-IAR-2024-25.json
+2026-03-21 19:09:17,052 - INFO - Loading: tata-motor-IAR-2024-25.json
+2026-03-21 19:09:17,107 - INFO -   [OK] Loaded 2551 documents from tata-motor-IAR-2024-25.json
+2026-03-21 19:09:17,109 - INFO - 
+Total documents to index: 5777
+2026-03-21 19:09:17,109 - INFO - Loading embedding model...
+2026-03-21 19:09:22,666 - INFO - [OK] Model loaded. Generating embeddings...
+2026-03-21 19:11:46,651 - INFO - Starting ingestion in 'processed' mode...
+2026-03-21 19:11:46,653 - INFO - Found 3 processed JSON files
+2026-03-21 19:11:46,653 - INFO - Loading: MSIL_IR_2024_25_HR.json
+2026-03-21 19:11:46,685 - INFO -   [OK] Loaded 1642 documents from MSIL_IR_2024_25_HR.json
+2026-03-21 19:11:46,685 - INFO - Loading: RIL-IAR-2024-25.json
+2026-03-21 19:11:46,704 - INFO -   [OK] Loaded 1584 documents from RIL-IAR-2024-25.json
+2026-03-21 19:11:46,705 - INFO - Loading: tata-motor-IAR-2024-25.json
+2026-03-21 19:11:46,744 - INFO -   [OK] Loaded 2551 documents from tata-motor-IAR-2024-25.json
+2026-03-21 19:11:46,744 - INFO - 
+Total documents to index: 5777
+2026-03-21 19:11:46,744 - INFO - Loading embedding model...
+2026-03-21 19:11:51,758 - INFO - [OK] Model loaded. Generating embeddings...
+2026-04-04 11:44:00,430 - ERROR - Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-04-04 11:44:00,431 - ERROR - Error during vector search: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+Traceback (most recent call last):
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\services\vector_db_service.py", line 97, in search
+    raise ValueError(error_msg)
+ValueError: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-04-04 11:50:04,444 - ERROR - Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+2026-04-04 11:50:04,460 - ERROR - Error during vector search: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
+Traceback (most recent call last):
+  File "C:\Users\yadav\OneDrive\Desktop\Hey09\FinSight - GenAI Financial Analyst Agent\FinSight\services\vector_db_service.py", line 97, in search
+    raise ValueError(error_msg)
+ValueError: Query vector dimension mismatch: query has 768 dimensions but index expects 384. This may indicate the FAISS index needs to be rebuilt.
