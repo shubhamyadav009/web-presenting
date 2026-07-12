@@ -1,0 +1,1 @@
+python -m streamlit run "c:\Users\yadav\OneDrive\Desktop\Hey09\Linked-In post Generator\main.py"
