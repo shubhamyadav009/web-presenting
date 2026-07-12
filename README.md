@@ -87,7 +87,7 @@ Beyond theory, the course gave me practical exposure to building end-to-end AI a
   FinSight can be used in investment banking and equity research to automate analysis of annual reports, significantly reducing manual effort. It also helps retail investors by simplifying financial insights and providing comparative analysis for decision-making. Additionally, it can support consulting due diligence by quickly extracting and analysing key financial metrics.
 </p>
 <p>
-  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="(https://github.com/shubhamyadav009/web-presenting/blob/main/SURE%20Trust%20Capstone%20project%20document.pdf)" target="_blank"><strong>→ View Full Project Report</strong></a>
 </p>
 
 <!-- Project 2 -->
