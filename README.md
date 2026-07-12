@@ -96,7 +96,7 @@ Beyond theory, the course gave me practical exposure to building end-to-end AI a
   Inspired by an end-to-end GenAI build using Llama 3.2, LangChain, Streamlit, and Groq (fast inference), the module converts user inputs/topics into engaging, structured LinkedIn posts with hooks, body, CTAs, emojis, and hashtags. It follows a pipeline of prompt templating, few-shot guidance, and UI-based generation.
 </p>
 <p>
-  <a href="<!-- Add link to full report -->" target="_blank"><strong>→ View Full Project Report</strong></a>
+  <a href="https://github.com/shubhamyadav009/web-presenting/blob/main/SURE%20Trust%20Capstone%20project%20document.pdf" target="_blank"><strong>→ View Full Project Report</strong></a>
 </p>
 
 <!-- Project 3 -->
